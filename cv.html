@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @media print {
+
+            /* Print settings */
+            html,
+            body,
+            .page {
+                width: 210mm;
+                height: 100%;
+                margin: 0 !important;
+                padding: 0 !important;
+                overflow: hidden;
+            }
+
+            button {
+                display: none;
+            }
+
+            body {
+                -webkit-print-color-adjust: exact !important;
+            }
+
+            @media print {
+
+                .no-print,
+                .no-print * {
+                    display: none !important;
+                }
+            }
+
+            .cv {
+                width: 210mm;
+                height: 297mm;
+            }
+
+            body,
+            .page {
+                margin: 0;
+                box-shadow: 0;
+            }
+
+
+        }
+    </style>
+</head>
+
+<!-- Print function -->
+<script>
+    function myFunction() {
+        window.print();
+    }
+</script>
+
+<body>
+
+    <page class="page" size="A4">
+        <!-- Print button -->
+        <div id="button" class="no-print">
+            <button type="button" onclick="myFunction()"><span class="button-txt"><i class="fa fa-print"></i>
+                    &nbsp;Imprimir</span></button>
+        </div>
+
+        <div class=generaldiv>
+            <div class="leftSide">
+
+                <img src="https://lh3.googleusercontent.com/62fh_vSbMfg-aN9KQC_MpwvF3c9gF_1fmpXfXrqjNzy746oJoIZMtd1dWZMAOdHQTAdq=s85">
+                <hr class="hr">
+
+
+
+                <h3>About me</h3>
+                <br><br>
+                <!-- Skills -->
+                <hr class="hr hr2">
+                <h3>Skills</h3>
+                <br><br>
+                <!-- Training -->
+
+                <hr class="hr hr3">
+                <h3>Formación</h3>
+                <br><br>
+
+                <!-- Proyects -->
+                <!-- <hr class="hr hr4">
+                <h3>Proyectos</h3>
+                <br><br><br> -->
+
+                <!-- Work -->
+                <hr class="hr hr5">
+                <h3>Experiencia</h3>
+                <br><br>
+
+
+                <!-- Languages -->
+                <hr class="hr hr6">
+                <h3>Idiomas</h3>
+                <br><br><br><br><br>
+
+
+
+            </div>
+
+
+            <div class="rightSide">
+                <!-- Name -->
+                <h1><strong>Eduardo Rus Carretero</strong> </h1>
+
+                <!-- Position -->
+                <h4>Full Stack - MERN Stack</h4>
+
+                <!-- Contact data -->
+                <div class="conect">
+                    <a class="mail" href="mailto:eduruscar@gmail.com">
+                        <p> <i class="fa fa-envelope mail"></i> eduruscar@gmail.com</p>
+                    </a>
+                    <a class="tlf" href="https://wa.link/qamour">
+                        <p> <i class="fa fa-phone"></i> 696317089</p>
+                    </a>
+                    <p> <i class="fa fa-home"></i> Gijón</p>
+                </div>
+                <br>
+
+                <!-- About me -->
+                <hr class="rhr5">
+                <p class=about>Descubri la programación  de casualidad, ahora disfruto por el desarrollo de back a front,
+                    desde que curse un Bootcamp en Factoria F5 hasta estudiar y aprender por mi cuenta.<br><br>
+                    Ahora, que tengo una báse sólida,con experiencia en UI/UX,preparado para aprender nuevas tecnologías, dinámicas de
+                    desarrollo y formas de entender la vida.</p>
+
+
+                <!-- Skills -->
+                <hr class=" rhr rhr2">
+                <div class="skills">
+                    <div>
+                        <ul class="skillList">
+                            <img class="icon nodejs"
+                                src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"><br>
+
+                            <img class="icon handlebars"
+                                src="https://api.iconify.design/logos-handlebars.svg"><br>
+
+                            <img class="icon express" src="https://gitconnected.com/public/images/tutorials/express-js">
+
+
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="skillList">
+                            <img class="icon mongo"
+                                src="https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2017/01/mongodb.png?w=775"><br>
+
+                            <img class="icon htmlcssjs" src="https://adrian-silva.neocities.org/html5jscss.png">
+                            <!-- <img class="icon python"
+                                src="https://www.codemonsters.es/sites/default/files/codemonsters/actividades/python_1280x350.png"> -->
+
+                        </ul>
+                    </div>
+                    <div>
+
+                        <ul class="skillList">
+                            <li class="learning">Aprendiendo</li>
+                             <img  class="icon vue"src="https://api.iconify.design/logos:vue.svg" alt="">
+
+                             <img  class="icon ts"src="https://api.iconify.design/vscode-icons:file-type-typescript.svg" alt="">
+                             
+                             <img class="icon react" src="https://api.iconify.design/simple-icons:react.svg">
+                             <!-- <img class="icon firebase"
+                                src="https://1.bp.blogspot.com/-YIfQT6q8ZM4/Vzyq5z1B8HI/AAAAAAAAAAc/UmWSSMLKtKgtH7CACElUp12zXkrPK5UoACLcB/s1600/image00.png">
+                            <img class="icon next"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png"><br>
+
+                            <img class="icon native"
+                                src="https://miro.medium.com/max/2742/1*safAvjgR68qpQCreDTOcYA.png"> -->
+
+                        </ul>
+                    </div>
+
+                </div>
+
+
+
+                <!-- Training -->
+                <hr class="rhr rhr1">
+                <ul>
+                    <li>2020 - 2021. Full-Sarck. Web Development Bootcamp. HTML5 | CSS3 |
+                        Javascript ES6 | MongoDB | Express | NodeJS | </li>
+                    <li>2021 - Certificado Scrum Mastern nº210181236</li>
+                    <li>1988 - 1994. IES El Piles. Bachillerato, COU ciencias puras</li>
+                </ul>
+
+
+                <!-- Proyects -->
+                <!-- <hr class=rhr>
+                <ul>
+                    <li> <a class=proyect href=""></a> </li>
+                    <li><a class=proyect href=""></a> </li>
+                    <li><a class=proyect href=""></a> </li>
+                </ul> -->
+
+
+
+                <!-- Experience -->
+                <hr class="rhr3">
+                <ul class="experience">
+                    <li>2007 - 2020 Ventas en Multiopticas Vaquero</li>
+                    <li>1999 - 2007 Ventras en Electrodomesticos Lacasa(Grupo Cennor)</li>
+                    <li>1994 - 1999 Militar Profesinal en el Ejercito del Aire</li>
+                    
+                </ul>
+
+                <!-- Languages -->
+                <hr class="rhr4">
+                <div class="languages">
+                    <ul class=langList>
+                        <div>
+                            <li>Español: nativo</li>
+                            <li>Inglés: basico</li>
+                        </div>
+
+                        
+
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </page>
+
+
+</body>
+
+</html>
